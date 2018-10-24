@@ -875,7 +875,7 @@ legend {
     padding: 0 20px 0 25px;
     display: flex;
     justify-content: space-between;
-    background: url(assets/images/sh-min.png) center center/cover no-repeat
+    background: url(assets/images/sh.webp) center center/cover no-repeat
 }
 
 .main__greeting {
