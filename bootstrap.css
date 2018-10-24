@@ -1,4 +1,22 @@
-@import url("./fonts/pt_sans.css");
+@font-face {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('PT Sans Bold'),
+  url(assets/fonts/PT700-1.woff2) format('woff2'),
+  url(assets/fonts/PT700-2.woff) format('woff');
+
+}
+
+@font-face {
+  font-family: 'PT Sans Narrow';
+  font-weight: 700;
+  font-display: swap;
+  src: local('PT Sans Narrow Bold'),
+  url(assets/fonts/PTN700-1.woff2) format('woff2'),
+  url(assets/fonts/PTN700-2.woff) format('woff');
+}
 
 /*!
  * Bootstrap v2.3.2
