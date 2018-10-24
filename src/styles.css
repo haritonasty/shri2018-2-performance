@@ -146,67 +146,6 @@ p {
     right: 40px
 }
 
-.filter__select {
-    display: none
-}
-
-.filter__item-label {
-    display: inline-block;
-    font-size: 13px;
-    line-height: 1;
-    font-weight: 700;
-    background: #f7f7f7;
-    min-height: 30px;
-    padding: 8px 13px;
-    border-radius: 15px;
-    margin-right: 11px;
-    cursor: pointer
-}
-
-.filter__item-label:hover {
-    background: #ffd93e
-}
-
-.filter__item-radio {
-    display: none
-}
-
-.filter__item-radio:checked + label {
-    background: #ffd93e
-}
-
-.filter__item-radio_kitchen:checked ~ .devices .panel {
-    display: none
-}
-
-.filter__item-radio_kitchen:checked ~ .devices .panel_kitchen {
-    display: flex
-}
-
-.filter__item-radio_room:checked ~ .devices .panel {
-    display: none
-}
-
-.filter__item-radio_room:checked ~ .devices .panel_room {
-    display: flex
-}
-
-.filter__item-radio_lamp:checked ~ .devices .panel {
-    display: none
-}
-
-.filter__item-radio_lamp:checked ~ .devices .panel_lamp {
-    display: flex
-}
-
-.filter__item-radio_cam:checked ~ .devices .panel {
-    display: none
-}
-
-.filter__item-radio_cam:checked ~ .devices .panel_cam {
-    display: flex
-}
-
 .footer {
     flex: 0 0 auto;
     display: flex;
