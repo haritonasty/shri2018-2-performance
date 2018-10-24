@@ -10,8 +10,7 @@
     font-family: 'PT Sans Narrow';
     font-weight: 700;
     font-display: swap;
-    src: local('PT Sans Narrow Bold'), url(assets/fonts/PTN700-1.woff2) format('woff2'), url(assets/fonts/PTN700-2.woff) format('woff');
-    unicode-range: U+0030-0039, U+002B, U+002D, U+0020;
+    src: local('PT Sans Narrow Bold'), url(assets/fonts/PTN-sub.woff2) format('woff2'), url(assets/fonts/PTN-sub.woff) format('woff');
 }
 
 * {
