@@ -3,8 +3,7 @@
     font-style: normal;
     font-weight: 700;
     font-display: swap;
-    src: local('PT Sans Bold'), url(assets/fonts/PT700-1.woff2) format('woff2'), url(assets/fonts/PT700-2.woff) format('woff');
-    unicode-range: U+0410-044F, U+0021, U+002C, U+0020;
+    src: local('PT Sans Bold'), url(assets/fonts/PT-sub.woff2) format('woff2'), url(assets/fonts/PT-sub.woff) format('woff');
 }
 
 @font-face {
