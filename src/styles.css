@@ -282,29 +282,6 @@ p {
     margin-bottom: 4px
 }
 
-.scenarios {
-    max-height: 331px;
-    background: #fff;
-    display: flex;
-    justify-content: flex-start;
-    overflow-x: hidden
-}
-
-.scenarios__page {
-    display: grid;
-    grid-template-columns: repeat(3, 200px);
-    grid-template-rows: repeat(3, 100px);
-    grid-column-gap: 15px;
-    grid-row-gap: 15px;
-    justify-content: space-between;
-    margin-right: 15px
-}
-
-.scenarios__paginator {
-    position: absolute;
-    top: 0;
-    right: 40px
-}
 
 .weather {
     display: flex
