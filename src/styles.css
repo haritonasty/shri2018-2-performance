@@ -58,33 +58,6 @@ p {
 }
 
 
-.button {
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #fff
-}
-
-.button_color_yellow {
-    background: #ffd93e
-}
-
-.button_size_l {
-    font-size: 18px;
-    font-weight: 700;
-    height: 60px;
-    border-radius: 20px
-}
-
-.button:hover {
-    box-shadow: 0 2px 6px 0 rgba(255, 225, 225, .6)
-}
-
-.button:active {
-    box-shadow: none
-}
-
 .content {
     width: 100%;
     display: flex;
@@ -283,91 +256,6 @@ p {
     padding: 0;
     margin: 0
 }
-
-.modal {
-    display: none;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    overflow: auto;
-    background: rgba(51, 51, 51, .5)
-}
-
-.modal_open {
-    display: flex
-}
-
-.modal_open .modal__content {
-    animation: modal .2s ease forwards
-}
-
-.modal__title {
-    font-size: 27px;
-    font-weight: 700;
-    margin-bottom: 6px
-}
-
-.modal__value {
-    box-sizing: content-box;
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    font-size: 36px;
-    font-weight: 700;
-    max-width: 62px;
-    height: 40px;
-    padding-right: 32px
-}
-
-.modal__value_temp {
-    background: url(assets/images/panel__icon_temp_on.svg) calc(100% + 10px) 0/contain no-repeat
-}
-
-.modal__value_light {
-    height: 45px;
-    padding-right: 45px;
-    background: url(assets/images/panel__icon_light_off.svg) right center/contain no-repeat
-}
-
-.modal__status {
-    margin-bottom: 20px
-}
-
-.modal__adjust {
-    margin-top: 25px
-}
-
-.modal__button {
-    width: 48.5%
-}
-
-.modal__content {
-    max-width: 640px;
-    width: 100%
-}
-
-.modal__body {
-    position: relative;
-    flex-shrink: 0;
-    padding: 25px;
-    margin-bottom: 15px;
-    border-radius: 20px;
-    background: #fff
-}
-
-.modal__controls {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap
-}
-
 
 .panel {
     padding: 14px;
