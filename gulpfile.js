@@ -36,7 +36,7 @@ gulp.task('scripts', function () {
 
 gulp.task('html', function () {
     return gulp.src('src/*.html')
-        .pipe(htmlmin({ collapseWhitespace: true }))
+        .pipe(htmlmin())
         .pipe(gulp.dest('public'))
 });
 
