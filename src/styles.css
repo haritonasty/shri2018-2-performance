@@ -3,7 +3,8 @@
     font-style: normal;
     font-weight: 700;
     font-display: swap;
-    src: local('PT Sans Bold'), url(assets/fonts/PT700-1.woff2) format('woff2'), url(assets/fonts/PT700-2.woff) format('woff')
+    src: local('PT Sans Bold'), url(assets/fonts/PT700-1.woff2) format('woff2'), url(assets/fonts/PT700-2.woff) format('woff');
+    unicode-range: U+0410-044F, U+0021, U+002C, U+0020;
 }
 
 @font-face {
@@ -116,14 +117,27 @@ input[type=search]::-webkit-search-cancel-button, input[type=search]::-webkit-se
     }
 }
 
-body {
-    margin: 0;
-    font-family: "PT Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 15px;
-    line-height: 20px;
-    color: #222;
-    background-color: #fff
+.page {
+    height: 100%;
+    background-color: #fff;
+    font: 14px Arial, sans-serif;
+    color: #333;
+    line-height: 1.143;
+    margin: 0 auto;
+    padding: 0;
+    width: 1366px
 }
+
+.page__wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100%
+}
+
+.page__wrapper-content {
+    flex: 1 0 auto
+}
+
 
 a {
     color: #2c3e50;
@@ -1007,25 +1021,6 @@ legend {
 }
 
 
-.page {
-    height: 100%;
-    font: 14px Arial, sans-serif;
-    color: #333;
-    line-height: 1.143;
-    margin: 0 auto;
-    padding: 0;
-    width: 1366px
-}
-
-.page__wrapper {
-    display: flex;
-    flex-direction: column;
-    height: 100%
-}
-
-.page__wrapper-content {
-    flex: 1 0 auto
-}
 
 .paginator {
     height: 16px;
