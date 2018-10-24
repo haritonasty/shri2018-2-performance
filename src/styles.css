@@ -233,69 +233,6 @@ p {
     background: #fff
 }
 
-.knob {
-    width: 220px;
-    height: 220px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative
-}
-
-.knob svg {
-    width: 220px;
-    height: 220px;
-    transform: rotate(90deg)
-}
-
-.knob__indicator {
-    fill: none;
-    stroke: #f5a623;
-    stroke-width: 20px;
-    stroke-dasharray: 0 629;
-    transform: rotate(29deg)
-}
-
-.knob__indicator-bounds {
-    fill: transparent;
-    stroke: #fff;
-    stroke-width: 21px;
-    stroke-dasharray: 99 629;
-    transform: rotate(-29deg)
-}
-
-.knob__indicator-bg {
-    fill: rgba(51, 51, 51, .7)
-}
-
-.knob__indicator-mask {
-    fill: transparent;
-    stroke: #fff;
-    stroke-width: 22px;
-    stroke-dasharray: 4 1;
-    transform: rotate(1deg)
-}
-
-.knob__self {
-    fill: #fefefe;
-    filter: url(#knob-shadow);
-    cursor: pointer
-}
-
-.knob__value {
-    font-size: 66px;
-    font-weight: 700;
-    position: absolute;
-    user-select: none;
-    pointer-events: none
-}
-
-.knob__wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 80%
-}
 
 .link, .link:active, .link:visited {
     color: rgba(51, 51, 51, .6)
@@ -492,39 +429,6 @@ p {
     flex-wrap: wrap
 }
 
-
-
-.paginator {
-    height: 16px;
-    width: 47px;
-    display: flex;
-    justify-content: space-between
-}
-
-.paginator div {
-    width: 16px
-}
-
-.paginator_hide {
-    display: none
-}
-
-.paginator__arrow {
-    opacity: 1;
-    cursor: pointer
-}
-
-.paginator__arrow:hover {
-    opacity: .5
-}
-
-.paginator__arrow:active {
-    opacity: .3
-}
-
-.paginator__arrow_disabled {
-    opacity: .3
-}
 
 .panel {
     padding: 14px;
