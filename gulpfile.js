@@ -9,8 +9,8 @@ const browserSync = require('browser-sync').create();
 
 
 gulp.task('styles', function () {
-    return gulp.src('src/**/*.css')
-        .pipe(concat('main.css'))
+    return gulp.src('src/styles.css')
+        // .pipe(concat('main.css'))
         .pipe(cleanCss())
         .pipe(purgecss({
             content: ["src/**/*.html", "src/**/*.js"]
