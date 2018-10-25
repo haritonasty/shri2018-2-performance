@@ -22,10 +22,14 @@
 </style>
 
 <svg display="none">
-    <symbol id="clock">
-        <g fill="none" fill-rule="evenodd"><path fill="none" d="M-925-250H441v768H-925z"/><path d="M0 0h24v24H0z"/><g transform="translate(2 2)" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="10" cy="10" r="10"/><path opacity=".3" d="M10 4v6l3 3"/></g></g>
-    </symbol>
-</svg>
+    <!--<symbol id="clock">-->
+        <!--<g fill="none" fill-rule="evenodd"><path fill="none" d="M-925-250H441v768H-925z"/><path d="M0 0h24v24H0z"/><g transform="translate(2 2)" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="10" cy="10" r="10"/><path opacity=".3" d="M10 4v6l3 3"/></g></g>-->
+    <!--</symbol>-->
+    <symbol id="light_off">
+        <g fill="none" fill-rule="evenodd"><path fill="none" d="M-1140-250H226v768h-1366z"/><path d="M0 0h24v24H0z"/><g transform="translate(1 1)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle stroke="#333" stroke-opacity=".4" cx="11" cy="11" r="5"/><path stroke-opacity=".1" d="M11 0v2M11 20v2M3.22 3.22l1.42 1.42M17.36 17.36l1.42 1.42M0 11h2M20 11h2M3.22 18.78l1.42-1.42M17.36 4.64l1.42-1.42" stroke="#333"/></g></g>
+    </symbol></svg>
+    
+
 
 <div class="page__wrapper">
     <div class="page__wrapper-content">
@@ -76,14 +80,16 @@
                                 </div>
                             </div>
                             <div class="panel main__panel panel_device">
-                                <div class="panel__icon panel__icon_light_off"></div>
+                                <svg width="24" height="24"><use xlink:href="#light_off"></use></svg>
+                                <!--<div class="panel__icon panel__icon_light_off"></div>-->
                                 <div class="panel__text">
                                     <div class="panel__title">Xiaomi Yeelight LED Smart Bulb</div>
                                     <div class="panel__sub">Включится в 17:00</div>
                                 </div>
                             </div>
                             <div class="panel main__panel panel_device panel_out_bot">
-                                <div class="panel__icon panel__icon_light_off"></div>
+                                <svg width="24" height="24"><use xlink:href="#light_off"></use></svg>
+                                <!--<div class="panel__icon panel__icon_light_off"></div>-->
                                 <div class="panel__text">
                                     <div class="panel__title">Xiaomi Yeelight LED Smart Bulb</div>
                                     <div class="panel__sub">Включится в 17:00</div>
@@ -128,8 +134,8 @@
                         </div>
 
                         <div class="panel scenarios__panel">
-                            <svg width="24" height="24"><use xlink:href="#clock"></use></svg>
-                            <!--<div class="panel__icon panel__icon_clock"></div>-->
+
+                            <div class="panel__icon panel__icon_clock"></div>
                             <div class="panel__text">
                                 <div class="panel__title">Я ухожу</div>
                             </div>
@@ -158,8 +164,7 @@
                         </div>
 
                         <div class="panel scenarios__panel">
-                            <svg width="24" height="24"><use xlink:href="#clock"></use></svg>
-                            <!--<div class="panel__icon panel__icon_clock"></div>-->
+                            <div class="panel__icon panel__icon_clock"></div>
                             <div class="panel__text">
                                 <div class="panel__title">Я ухожу</div>
                             </div>
@@ -190,8 +195,8 @@
 
                     <div class="scenarios__page">
                         <div class="panel scenarios__panel">
-                            <svg width="24" height="24"><use xlink:href="#clock"></use></svg>
-                            <!--<div class="panel__icon panel__icon_clock"></div>-->
+                            <!--<svg width="24" height="24"><use xlink:href='#clock'></use></svg>-->
+                            <div class="panel__icon panel__icon_clock"></div>
                             <div class="panel__text">
                                 <div class="panel__title">Я ухожу</div>
                             </div>
@@ -270,7 +275,8 @@
                         </div>
                     </div>
                     <div class="panel panel_device devices__panel panel_cam">
-                        <div class="panel__icon panel__icon_light_off"></div>
+                        <svg width="24" height="24"><use xlink:href="#light_off"></use></svg>
+                        <!--<div class="panel__icon panel__icon_light_off"></div>-->
                         <div class="panel__text">
                             <div class="panel__title">D-Link Omna 180 Cam</div>
                             <div class="panel__sub">Включится в 17:00</div>
@@ -284,7 +290,8 @@
                         </div>
                     </div>
                     <div class="panel panel_device devices__panel panel_lamp">
-                        <div class="panel__icon panel__icon_light_off"></div>
+                        <svg width="24" height="24"><use xlink:href="#light_off"></use></svg>
+                        <!--<div class="panel__icon panel__icon_light_off"></div>-->
                         <div class="panel__text">
                             <div class="panel__title">LIFX Mini Day & Dusk A60 E27</div>
                             <div class="panel__sub">Включится в 17:00</div>
@@ -298,7 +305,8 @@
                         </div>
                     </div>
                     <div class="panel panel_device devices__panel panel_lamp">
-                        <div class="panel__icon panel__icon_light_off"></div>
+                        <svg width="24" height="24"><use xlink:href="#light_off"></use></svg>
+                        <!--<div class="panel__icon panel__icon_light_off"></div>-->
                         <div class="panel__text">
                             <div class="panel__title">Philips Zhirui</div>
                             <div class="panel__sub">Выключено</div>
