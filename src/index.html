@@ -8,8 +8,8 @@
     <link rel="preload" as="image" href="assets/images/sh3.webp">
     <link rel="preload" href="assets/fonts/PT-sub.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="assets/fonts/PTN-sub.woff2" as="font" type="font/woff2" crossorigin>
-    <link rel="preload" as="image" href="assets/images/panel__icon_clock.svg">
-    <link rel="preload" as="image" href="assets/images/panel__icon_light_off.svg">
+    <!--<link rel="preload" as="image" href="assets/images/panel__icon_clock.svg">-->
+    <!--<link rel="preload" as="image" href="assets/images/panel__icon_light_off.svg">-->
     <link rel="preload" as="image" href="assets/images/panel__icon_light_on.svg">
     <link rel="preload" as="image" href="assets/images/panel__icon_temp_off.svg">
     <link rel="preload" as="image" href="assets/images/cloud.svg">
@@ -22,9 +22,9 @@
 </style>
 
 <svg display="none">
-    <!--<symbol id="clock">-->
-        <!--<g fill="none" fill-rule="evenodd"><path fill="none" d="M-925-250H441v768H-925z"/><path d="M0 0h24v24H0z"/><g transform="translate(2 2)" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="10" cy="10" r="10"/><path opacity=".3" d="M10 4v6l3 3"/></g></g>-->
-    <!--</symbol>-->
+    <symbol id="clock">
+        <g fill="none" fill-rule="evenodd"><path fill="none" d="M-925-250H441v768H-925z"/><path d="M0 0h24v24H0z"/><g transform="translate(2 2)" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="10" cy="10" r="10"/><path opacity=".3" d="M10 4v6l3 3"/></g></g>
+    </symbol>
     <symbol id="light_off">
         <g fill="none" fill-rule="evenodd"><path fill="none" d="M-1140-250H226v768h-1366z"/><path d="M0 0h24v24H0z"/><g transform="translate(1 1)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle stroke="#333" stroke-opacity=".4" cx="11" cy="11" r="5"/><path stroke-opacity=".1" d="M11 0v2M11 20v2M3.22 3.22l1.42 1.42M17.36 17.36l1.42 1.42M0 11h2M20 11h2M3.22 18.78l1.42-1.42M17.36 4.64l1.42-1.42" stroke="#333"/></g></g></svg>
     </symbol>
@@ -145,8 +145,8 @@
                         </div>
 
                         <div class="panel scenarios__panel">
-
-                            <div class="panel__icon panel__icon_clock"></div>
+                            <svg width="24" height="24"><use xlink:href='#clock'></use></svg>
+                            <!--<div class="panel__icon panel__icon_clock"></div>-->
                             <div class="panel__text">
                                 <div class="panel__title">Я ухожу</div>
                             </div>
@@ -175,7 +175,8 @@
                         </div>
 
                         <div class="panel scenarios__panel">
-                            <div class="panel__icon panel__icon_clock"></div>
+                            <svg width="24" height="24"><use xlink:href='#clock'></use></svg>
+                            <!--<div class="panel__icon panel__icon_clock"></div>-->
                             <div class="panel__text">
                                 <div class="panel__title">Я ухожу</div>
                             </div>
@@ -206,8 +207,8 @@
 
                     <div class="scenarios__page">
                         <div class="panel scenarios__panel">
-                            <!--<svg width="24" height="24"><use xlink:href='#clock'></use></svg>-->
-                            <div class="panel__icon panel__icon_clock"></div>
+                            <svg width="24" height="24"><use xlink:href='#clock'></use></svg>
+                            <!--<div class="panel__icon panel__icon_clock"></div>-->
                             <div class="panel__text">
                                 <div class="panel__title">Я ухожу</div>
                             </div>
